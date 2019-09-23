@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CQExport.h" />
+    <ClInclude Include="CQImport.h" />
+    <ClInclude Include="CQType.h" />
+    <ClInclude Include="Logger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CQImport.c" />
+    <ClCompile Include="Logger.c" />
+    <ClCompile Include="CQExport.c" />
+  </ItemGroup>
+</Project>
