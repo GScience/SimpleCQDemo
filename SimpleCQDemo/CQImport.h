@@ -4,7 +4,7 @@
 #include "CQType.h"
 
 #define CQ_IMPORT_DECL_HELPER(ReturnType, FuncName, ...)\
-    extern ReturnType(*CQ_##FuncName##)(__VA_ARGS__);
+    extern ReturnType(__stdcall *CQ_##FuncName##)(__VA_ARGS__);
 
 // Message
 CQ_IMPORT_DECL_HELPER(int32_t, sendPrivateMsg, int32_t auth_code, int64_t qq, const char* msg)

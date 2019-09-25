@@ -3,6 +3,8 @@
 #include "CQExport.h"
 #include "CQImport.h"
 
+extern int32_t authCode;
+
 AppInfo
 {
 	return "9,cc.gscience.SimpleCQDemo";
